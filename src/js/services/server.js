@@ -6,7 +6,7 @@ async function postData(url, body) {
         },
         body: body
     });
-
+ 
     return await res.json();
 }
 
